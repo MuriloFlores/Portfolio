@@ -1,0 +1,74 @@
+* {
+    font-family: 'Source Sans Pro';
+
+}
+section{
+    cursor:default
+}
+.texto-container {
+    background-color: #3a3a39;
+}
+
+.texto-container .texto {
+
+    padding-top: 100px;
+
+}
+
+.texto-container .texto h1 {
+    font-size: 40px;
+}
+
+.texto-container .texto p span {
+    font-size: 10px;
+}
+
+
+.foto img {
+    position: relative;
+    top: 60px;
+
+    width: 150px;
+    height: 150px;
+}
+
+section .after::after {
+    content: " ";
+    display: flex;
+    margin: 0 auto;
+    width: 150px;
+    height: 4px;
+    margin-top: 10px;
+    background-color: #3a3a39;
+    border-radius: 20px;
+
+}
+
+section .projeto a img {
+    object-fit: cover;
+    width: 250px;
+    height: 150px;
+}
+
+section .tecnologias img {
+
+    object-fit: cover;
+    height: 100%;
+    width: calc(512px/4);
+}
+
+section .contato a {
+    width: calc(512px/3);
+}
+
+section .contato a img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+@media(max-width:575px) {
+    .texto-container {
+        border-radius: 0px !important;
+    }
+}
